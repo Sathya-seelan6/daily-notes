@@ -1,0 +1,36 @@
+1.pwd  						--shows current working directory
+2.mkdir /c/vargent-vms 				--creates the folder in the drive
+3.cd /c/vargent-vms 				--change the directory
+4.pwd
+5.ls 						--for check ls
+6.clear 					--for clear
+7.cd centos
+8.pwd
+9.cd /c/vargent-vms/centos/
+10.clear
+11.ls
+12.in google go to this website https://portal.cloud.hashicorp.com/vagrant/discover
+13.search centos 9 select eurolinux-vargent/centos-stream-9
+14.vagrant init eurolinux-vagrant/centos-stream-9  --paste GITBASH
+15.ls 						--it should show Vagrantfile
+16.cat Vagrantfile
+17.vagrant up 					--if you get error just put on and clear it
+18.vagrant box list 				--you will get the list of OS
+19.vagrant status 				--just to check status
+20.if you open vmbox you can see the centos is running on virtualBox Manager
+21.vargent ssh 					--for login
+22.To confirm it the the prompt will be changed @localhost use cmd whomai
+23.check the pwd 
+24.sudo -i 					--change to root user and check whoami
+25.exit						--logout from root 
+26.exit						--logout from vagrant
+27.vagrant halt					--To shutdown check in the vmbox
+28.vagrant up 					--To start again
+29.vagrant reload 				--Is used to reboot and make the changes the updated
+30./c/vargent-vms remember that u should be in this folder to cmd the vagrants cmd
+31.vagrant destroy is to delete the vm dont to this this cmd just to know
+32.vagrent box list shows list of vmbox 
+
+
+For ubuntu
+ubuntu/jammy64 --box-version do this step 13
